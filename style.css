@@ -404,3 +404,95 @@ footer {
     padding: 0.4rem 0.9rem;
   }
 }
+
+/* ========== PERFECT MOBILE BUTTONS ========== */
+@media (max-width: 768px) {
+
+  /* ALL BUTTONS – TOUCH FRIENDLY */
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* APPLY BUTTONS (Courses & Events) */
+  .apply-btn {
+    width: 100%;
+    max-width: 260px;
+    margin: 1rem auto 0;
+    padding: 0.75rem 1.2rem;
+    font-size: 0.9rem;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* FOUNDER SOCIAL BUTTONS */
+  .founder-social {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .founder-social a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* FOOTER SOCIAL BUTTONS */
+  .footer-social {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .footer-social .social-btn {
+    width: 100%;
+    max-width: 260px;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 0.75rem 1.2rem;
+  }
+
+  /* CONTACT FORM BUTTON */
+  .contact-form button {
+    font-size: 1rem;
+    padding: 0.9rem;
+    border-radius: 14px;
+  }
+}
+/* ===== FIX CONTACT FORM MOBILE OVERFLOW ===== */
+@media (max-width: 768px) {
+
+  #contact {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .contact-form {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.8rem 1.4rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+  }
+
+  .contact-form textarea {
+    resize: none;
+  }
+}
+
