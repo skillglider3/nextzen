@@ -194,3 +194,46 @@ footer {
 #events .service-card {
   border-left: 4px solid #f97316;
 }
+
+/* FOUNDERS */
+.founder-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.founder-role {
+  display: block;
+  font-size: 0.9rem;
+  color: #f97316;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.founder-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.founder-social a {
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.founder-social .li {
+  background: #2563eb;
+  color: #fff;
+}
+
+.founder-social .ig {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+  color: #fff;
+}
+
