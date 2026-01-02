@@ -579,42 +579,42 @@ footer {
   }
 }
 
-.freelance-section {
-  padding: 80px 20px;
-  background: #f9fafc;
+/* ========== FREELANCE SECTION ========== */
+
+#freelance {
   text-align: center;
 }
 
-.freelance-container {
-  max-width: 800px;
-  margin: auto;
+#freelance h2 {
+  color: #f97316;
 }
 
-.freelance-section h2 {
-  font-size: 36px;
-  margin-bottom: 15px;
-  color: #1e293b;
+#freelance p {
+  max-width: 700px;
+  margin: 0.8rem auto 2.5rem;
+  color: #94a3b8;
 }
 
-.freelance-section p {
-  font-size: 16px;
-  color: #475569;
-  margin-bottom: 30px;
+#freelance .service-card h3 {
+  color: #e5e7eb;
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+#freelance .service-card p {
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+/* FREELANCE LIST STYLE */
+.freelance-list {
+  text-align: left;
+  margin: 1.2rem 0;
+  padding-left: 1.2rem;
+  color: #94a3b8;
+  font-size: 0.9rem;
   line-height: 1.6;
 }
 
-.freelance-btn {
-  display: inline-block;
-  padding: 14px 30px;
-  background: #2563eb;
-  color: #ffffff;
-  font-size: 16px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s ease;
-}
-
-.freelance-btn:hover {
-  background: #1d4ed8;
+.freelance-list li {
+  margin-bottom: 0.4rem;
 }
